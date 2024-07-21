@@ -11,7 +11,7 @@ cursor.execute('''
 CREATE TABLE IF NOT EXISTS bmi (
     id INTEGER PRIMARY KEY,
     date TEXT,
-    weight REAL,
+    weight REAL
     height REAL,
     bmi REAL
 )
